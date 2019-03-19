@@ -1,8 +1,9 @@
 # Robot Experiments
 
 ## Overview
-OSVOS_trainer is being provided to enable users to quickly annotate their own training data and train new OSVOS models for video object segmentation.
-Original YCB annotation data used for our paper is included in ``./data/rawData/``.
+robot_exp contains the source code used for the experiments in our paper.
+Segmentation models should trained using ``../OSVOS_train/train_osvos_models.py``.
+Code is setup for Toyota's Human Support Robot (HSR) using ROS messages, but should be reconfigurable for other robot platforms.
 
 Please cite our paper if you find it useful for your research.
 ```
@@ -16,19 +17,19 @@ Please cite our paper if you find it useful for your research.
 
 ### Setup
 Add trained OSVOS segmentation models to ``./data/models``.
-obj config
+New object models should be added to the existing dictionary in ``./object_conf.py``.
 
-Vs config
-
-
-
-
+Add new visual servo configurations using ``./vs_conf.py``.
+Learn parameters for new visual servo configurations using ``./learn_vs.py``.
 
 ### Execution Process
-Run ``./train_osvos_models.py`` [native Python, requires TensorFlow]
-Model files generated in ``./data/models/`` can be deleted to save disk space or used in robot experiments.
+Run ``./paper_vs.py`` to replicate visual servo control experiments from the paper [native Python, requires TensorFlow].
 
-Processing logged data.
+Run ``./paper_vs_de.py`` to replicate combined visual servo and depth estimation experiments from the paper [native Python, requires TensorFlow].
+
+Visual servo and depth estimation data will timestamped and logged automatically in ``./log/``.
+To process logged data and make plots, run ``./process_vs_log.py`` for visual servo data and ``./process_de_log.py`` for depth estimation data.
+Processed data are saved in their own folder in ``./log/``.
 
 ## Included External Files
 
@@ -36,3 +37,7 @@ S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, and L. Va
 One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.
 	Video Object Segmentation
 	https://github.com/scaelles/OSVOS-TensorFlow
+
+## Use
+
+This code is available for non-commercial research purposes only.

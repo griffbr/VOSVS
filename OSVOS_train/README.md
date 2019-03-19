@@ -35,7 +35,7 @@ Less iterations will run faster, but may not train as well.
 More iterations will take longer, probably work better, but may also overfit to the training examples.
 
 ### Execution Process
-Run ``./train_osvos_models.py`` [native Python, requires TensorFlow]
+Run ``./train_osvos_models.py`` [native Python, requires TensorFlow].
 Model files generated in ``./data/models/`` can be deleted to save disk space or used in robot experiments.
 
 ## Included External Files
@@ -44,3 +44,7 @@ S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, and L. Va
 One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.
 	Video Object Segmentation
 	https://github.com/scaelles/OSVOS-TensorFlow
+
+## Use
+
+This code is available for non-commercial research purposes only.
