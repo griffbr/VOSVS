@@ -2,7 +2,7 @@
 
 Contact: Brent Griffin (griffb at umich dot edu)
 
-TODO: update arxiv link, update citation for arxiv
+### !! UPDATES IN PROGRESS 190319 !!
 
 ## Paper
 [Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform](https://arxiv.org/abs/1811.07958 "ArXiV Paper")<br />
@@ -20,17 +20,23 @@ Please cite our paper if you find it useful for your research.
 
 ## Method
 
-__VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping.__ After identifying the sugar box, HSR uses our video object segmentation-based framework to first center the object on the optical axis of the grasp camera (columns 1-2). From there, HSR estimates the depth of the segmented object as the gripper approaches on the optical axis (columns 2-4). Finally, HSR uses VOS-based grasping and error detection to pick up the sugar box (columns 5-6).
-![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/complete_exp.png "VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping")
+__Video Demonstration:__ https://youtu.be/hlog5FV9RLs
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hlog5FV9RLs/0.jpg)](https://www.youtube.com/watch?v=hlog5FV9RLs)
+
+__HSR Segmenting Objects at Various Heights.__ HSR's grasp camera faces downward (left) and only collects RGB data for objects in the scene (top right). However, using active perception and video object segmentation (bottom right), HSR can locate and grasp a variety of objects in real time.
+![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/annotation_example.png "VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping")
 <br />
 
+__Depth Estimation of Sugar Box.__ Data collected and processed in real time during the initial approach to the sugar box in the demonstration video.
+![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/depth_estimation.png "Depth Estimation of Sugar Box")
+<br />
 
+## Code
 
+Source code for our video object segmentation-based framework is located in the ``/robot_exp`` folder.
 
-
-
-# !! UPDATES IN PROGRESS 190319 !!
-
+Source code for annotating data and training OSVOS models for segmentation are located in the ``/OSVOS_train`` folder.
 
 ## Use
 

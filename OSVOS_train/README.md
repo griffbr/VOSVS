@@ -2,7 +2,7 @@
 
 ## Overview
 OSVOS_train is being provided to enable users to quickly annotate their own training data and then train new OSVOS models for video object segmentation.
-Original YCB annotation data used for our paper is included in ``./data/rawData/``.
+Original YCB annotation data used for our paper is included in ``./data/rawData``.
 
 Please cite our paper if you find it useful for your research.
 ```
@@ -18,6 +18,10 @@ Please cite our paper if you find it useful for your research.
 Just run ``./train_osvos_models.py`` with TensorFlow sourced.
 This will train all of the OSVOS segmentation models used in the paper.
 Results will be dated and added to the ``./results`` folder.
+
+__YCB Objects Included as Annotated Training Examples.__
+![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/objects.jpg "YCB Objects Included as Training Examples")
+<br />
 
 ### Setup
 Add new data to ``./data/rawData/`` folder following the examples already provided.
@@ -36,7 +40,7 @@ More iterations will take longer, probably work better, but may also overfit to 
 
 ### Execution Process
 Run ``./train_osvos_models.py`` [native Python, requires TensorFlow].
-Model files generated in ``./data/models/`` can be deleted to save disk space or used in robot experiments.
+Model files generated in ``./data/models`` can be deleted to save disk space or used in robot experiments.
 
 ## Included External Files
 
