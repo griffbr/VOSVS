@@ -2,11 +2,11 @@
 
 ## Overview
 OSVOS_train is being provided to enable users to quickly annotate their own training data and then train new OSVOS models for video object segmentation.
-Original YCB annotation data used for our paper is included in ``./data/rawData``.
+We include YCB annotation data used for our paper in ``./data/rawData``.
 
 Please cite our paper if you find it useful for your research.
 ```
-@inproceedings{GrFlCoWACV19,
+@inproceedings{GrFlCo19,
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   title = {Tukey-Inspired Video Object Segmentation},
   journal = {CoRR},
@@ -39,15 +39,15 @@ Less iterations will run faster, but may not train as well.
 More iterations will take longer, probably work better, but may also overfit to the training examples.
 
 ### Execution Process
-Run ``./train_osvos_models.py`` [native Python, requires TensorFlow].
+Run ``./train_osvos_models.py`` [native Python, requires TensorFlow].<br />
 Model files generated in ``./data/models`` can be deleted to save disk space or used in robot experiments.
 
 ## Included External Files
 
 S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, and L. Van Gool
-One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.
-	Video Object Segmentation
-	https://github.com/scaelles/OSVOS-TensorFlow
+One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.<br />
+Video Object Segmentation. <br />
+https://github.com/scaelles/OSVOS-TensorFlow
 
 ## Use
 

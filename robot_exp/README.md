@@ -1,6 +1,7 @@
-# Robot Experiments
+# Source Code for Robot Experiments
 
 ## Overview
+
 robot_exp contains the source code used for the experiments in our paper.
 The necessary segmentation models are trained using ``../OSVOS_train/train_osvos_models.py``.
 Code is setup for Toyota's Human Support Robot (HSR) using ROS messages, but should be reconfigurable for other robot platforms.
@@ -21,16 +22,18 @@ This framework only requires an RGB camera combined with robot actuation.
 <br />
 
 ### Setup
-Add trained OSVOS segmentation models to ``./data/models``.
+
+Add trained OSVOS segmentation models to ``./data/models``.<br />
 New object models should be added to the existing dictionary in ``./object_conf.py``.
 
-Add new visual servo configurations using ``./vs_conf.py``.
+Add new visual servo configurations using ``./vs_conf.py``.<br />
 Learn parameters for new visual servo configurations using ``./learn_vs.py``.
 
 ### Execution Process
-Run ``./paper_vs.py`` to replicate visual servo control experiments from the paper [native Python, requires TensorFlow].
 
-Run ``./paper_vs_de.py`` to replicate combined visual servo and depth estimation experiments from the paper [native Python, requires TensorFlow].
+Run ``./paper_vs.py`` for visual servo experiments from the paper [native Python, requires TensorFlow].
+
+Run ``./paper_vs_de.py`` for combined visual servo and depth estimation experiments from the paper [native Python, requires TensorFlow].
 
 Visual servo and depth estimation data is timestamped and logged automatically into the ``./log`` folder.
 To process logged data and make plots, run ``./process_vs_log.py`` for visual servo data and ``./process_de_log.py`` for depth estimation data.
@@ -39,9 +42,9 @@ Processed data are saved in new folders in ``./log``.
 ## Included External Files
 
 S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, and L. Van Gool
-One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.
-	Video Object Segmentation
-	https://github.com/scaelles/OSVOS-TensorFlow
+One-Shot Video Object Segmentation, Computer Vision and Pattern Recognition (CVPR), 2017.<br />
+Video Object Segmentation. <br />
+https://github.com/scaelles/OSVOS-TensorFlow
 
 ## Use
 

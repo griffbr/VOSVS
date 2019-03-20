@@ -2,15 +2,13 @@
 
 Contact: Brent Griffin (griffb at umich dot edu)
 
-### !! UPDATES IN PROGRESS 190319 !!
-
 ## Paper
-[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform](https://arxiv.org/abs/1811.07958 "ArXiV Paper")<br />
+[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform](https://arxiv.org/abs/1811.07958 "arXiv Paper")<br />
 [Brent Griffin](https://www.griffb.com), Victoria Florence, and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
 
 Please cite our paper if you find it useful for your research.
 ```
-@inproceedings{GrFlCoWACV19,
+@inproceedings{GrFlCo19,
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   title = {Tukey-Inspired Video Object Segmentation},
   journal = {CoRR},
@@ -28,7 +26,7 @@ __HSR Segmenting Objects at Various Heights.__ HSR's grasp camera faces downward
 ![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/annotation_example.png "VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping")
 <br />
 
-__Depth Estimation of Sugar Box.__ Data collected and processed in real time during the initial approach to the sugar box in the demonstration video.
+__Depth Estimation of Sugar Box.__ Data are collected and processed in real time during the initial approach to the sugar box in the video demonstration.
 ![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/depth_estimation.png "Depth Estimation of Sugar Box")
 <br />
 
@@ -36,7 +34,7 @@ __Depth Estimation of Sugar Box.__ Data collected and processed in real time dur
 
 Source code for our video object segmentation-based framework is located in the ``/robot_exp`` folder.
 
-Source code for annotating data and training OSVOS models for segmentation are located in the ``/OSVOS_train`` folder.
+Source code for annotating data and training OSVOS for segmentation is located in the ``/OSVOS_train`` folder.
 
 ## Use
 
