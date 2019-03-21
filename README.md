@@ -3,7 +3,7 @@
 Contact: Brent Griffin (griffb at umich dot edu)
 
 ## Paper
-[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform](https://arxiv.org/abs/1811.07958 "arXiv Paper")<br />
+[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot Platform](https://arxiv.org/abs/1903.08336 "arXiv Paper")<br />
 [Brent Griffin](https://www.griffb.com), Victoria Florence, and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
 
 Please cite our paper if you find it useful for your research.
@@ -12,6 +12,7 @@ Please cite our paper if you find it useful for your research.
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   title = {Tukey-Inspired Video Object Segmentation},
   journal = {CoRR},
+  volume = {abs/1903.08336},
   year = {2019}
 }
 ```

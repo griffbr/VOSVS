@@ -8,13 +8,15 @@ Code is setup for Toyota's Human Support Robot (HSR) using ROS messages, but sho
 
 Please cite our paper if you find it useful for your research.
 ```
-@inproceedings{GrFlCoWACV19,
+@inproceedings{GrFlCo19,
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   title = {Tukey-Inspired Video Object Segmentation},
   journal = {CoRR},
+  volume = {abs/1903.08336},
   year = {2019}
 }
 ```
+
 
 __VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping.__ After identifying the sugar box, HSR uses our video object segmentation-based framework to center the object with the optical axis of the grasp camera (columns 1-2). Next, HSR estimates the depth of the segmented object in real time as the gripper approaches on the optical axis (columns 2-4). Finally, HSR uses VOS-based grasping and error detection to pick up the sugar box (columns 5-6).
 This framework only requires an RGB camera combined with robot actuation.

@@ -10,6 +10,7 @@ Please cite our paper if you find it useful for your research.
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   title = {Tukey-Inspired Video Object Segmentation},
   journal = {CoRR},
+  volume = {abs/1903.08336},
   year = {2019}
 }
 ```
