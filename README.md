@@ -17,6 +17,12 @@ Please cite our paper if you find it useful for your research.
 }
 ```
 
+## Code
+
+Source code for our video object segmentation-based framework is located in the ``/robot_exp`` folder.
+
+Source code for annotating data and training OSVOS for segmentation is located in the ``/OSVOS_train`` folder.
+
 ## Method
 
 __Video Demonstration:__ https://youtu.be/hlog5FV9RLs
@@ -31,12 +37,11 @@ __Depth Estimation of Sugar Box.__ Data are collected and processed in real time
 ![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/depth_estimation.png "Depth Estimation of Sugar Box")
 <br />
 
-## Code
-
-Source code for our video object segmentation-based framework is located in the ``/robot_exp`` folder.
-
-Source code for annotating data and training OSVOS for segmentation is located in the ``/OSVOS_train`` folder.
-
 ## Use
 
 This code is available for non-commercial research purposes only.
+
+## Misc.
+
+__Robot Fine Motor Skills using VOSVS:__ https://youtu.be/4L6Q8sAjiCI
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4L6Q8sAjiCI/0.jpg)](https://www.youtube.com/watch?v=4L6Q8sAjiCI)
