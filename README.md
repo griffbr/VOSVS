@@ -8,7 +8,7 @@ Contact: Brent Griffin (griffb at umich dot edu)
 
 Please cite our paper if you find it useful for your research.
 ```
-@inproceedings{GrCoWACV20,
+@inproceedings{GrFlCoWACV20,
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
   booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
   title = {Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot},
