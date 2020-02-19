@@ -27,7 +27,7 @@ Source code for annotating data and training OSVOS for segmentation is located i
 
 __WACV 2020 Oral Presentation:__ https://youtu.be/_SaMQjLxpZ8
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_SaMQjLxpZ8/0.jpg)](https://www.youtube.com/watch?v=hlog5FV9RLs)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_SaMQjLxpZ8/0.jpg)](https://www.youtube.com/watch?v=_SaMQjLxpZ8)
 
 __HSR Segmenting Objects at Various Heights.__ HSR's grasp camera faces downward (left) and only collects RGB data for objects in the scene (top right). However, using active perception and video object segmentation (bottom right), HSR can locate and grasp a variety of objects in real time.
 ![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/annotation_example.png "VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping")
