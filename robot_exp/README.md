@@ -8,12 +8,11 @@ Code is setup for Toyota's Human Support Robot (HSR) using ROS messages, but sho
 
 Please cite our paper if you find it useful for your research.
 ```
-@inproceedings{GrFlCo19,
+@inproceedings{GrFlCoWACV20,
   author = {Griffin, Brent and Florence, Victoria and Corso, Jason J.},
-  title = {Tukey-Inspired Video Object Segmentation},
-  journal = {CoRR},
-  volume = {abs/1903.08336},
-  year = {2019}
+  booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  title = {Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot},
+  year = {2020}
 }
 ```
 
