@@ -3,7 +3,7 @@
 Contact: Brent Griffin (griffb at umich dot edu)
 
 ## Paper
-[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot](https://arxiv.org/abs/1903.08336 "arXiv Paper")<br />
+[Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot](https://openaccess.thecvf.com/content_WACV_2020/html/Griffin_Video_Object_Segmentation-based_Visual_Servo_Control_and_Object_Depth_Estimation_WACV_2020_paper.html "WACV Paper")<br />
 [Brent Griffin](https://www.griffb.com), Victoria Florence, and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
 IEEE Winter Conference on Applications of Computer Vision (WACV), 2020
 
