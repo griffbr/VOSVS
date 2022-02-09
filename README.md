@@ -23,6 +23,40 @@ Source code for our video object segmentation-based framework is located in the 
 
 Source code for annotating data and training OSVOS for segmentation is located in the ``/OSVOS_train`` folder.
 
+## Benchmark
+
+| Object Set | Support Height (m) | YCB Object | [VOSVS](https://openaccess.thecvf.com/content_WACV_2020/html/Griffin_Video_Object_Segmentation-based_Visual_Servo_Control_and_Object_Depth_Estimation_WACV_2020_paper.html) |
+| --------------- | --------------- | --------------- | --------------- | 
+| Tool | 0.25 | Power Drill | X |
+| Tool | 0.125 | Marker | \\ |
+| Tool | 0.0 | Padlock | \\ |
+| Tool | 0.25 | Wood | \\ |
+| Tool | 0.125 | Spring Clamp | \\ |
+| Tool | 0.0 | Screwdriver | \\ |
+| Food | 0.25 | Chips Can | X |
+| Food | 0.125 | Potted Meat | X |
+| Food | 0.0 | Plastic Banana | X |
+| Food | 0.25 | Box of Sugar | X |
+| Food | 0.125 | Tuna | \\ |
+| Food | 0.0 | Gelatin | X |
+| Kitchen | 0.25 | Mug | X |
+| Kitchen | 0.125 | Softscrub | |
+| Kitchen | 0.0 | Skillet with Lid | |
+| Kitchen | 0.25 | Plate | X |
+| Kitchen | 0.125 | Spatula | |
+| Kitchen | 0.0 | Knife | \\ |
+| Shape | 0.25 | Baseball | \\ |
+| Shape | 0.125 | Plastic Chain | \\ |
+| Shape | 0.0 | Washer | \\ |
+| Shape | 0.25 | Stacking Cup | X |
+| Shape | 0.125 | Dice | |
+| Shape | 0.0 | Foam Brick | X |
+
+
+The VOSVS Benchmark uses a single consecutive set of mobile robot trials using a single RGB camera. Visual Servo (VS) is a success (\\) if the robot moves within reach of an object for depth estimation (DE), which, in turn, is a success if the robot’s gripper closes on an object without collision (X). Please see our paper for more details. YCB Dataset objects are available [here](https://www.ycbbenchmarks.com/). The bins we use for varying depth can be found [here](https://www.amazon.com/IRIS-USA-Inc-Multi-Purpose-Plastic/dp/B07CQ9B8W3/ref=sr_1_7?ie=UTF8&qid=1547231250&sr=8-7&keywords=plastic+bins+for+toys).
+
+Is your technique missing although the paper and results are public? Let us know and we'll add it.
+
 ## Method
 
 __WACV 2020 Oral Presentation:__ https://youtu.be/_SaMQjLxpZ8
