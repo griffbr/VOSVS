@@ -51,9 +51,8 @@ Source code for annotating data and training OSVOS for segmentation is located i
 | Shape | 0.25 | Stacking Cup | X |
 | Shape | 0.125 | Dice | |
 | Shape | 0.0 | Foam Brick | X |
-| --------------- | --------------- | --------------- | --------------- | 
-| --------------- | --------------- | --------------- | --------------- | 
-| | | Success Rate (%VS/ %DE) | 83/42 |
+|  |  |  |  | 
+| | Success Rate | (%VS / %DE) | 83 / 42 |
 
 The VOSVS Benchmark uses a single consecutive set of mobile robot trials using a single RGB camera. Visual Servo (VS) is a success ( \\ ) if the robot moves within reach of an object for depth estimation (DE), which, in turn, is a success if the robot’s gripper closes on an object without collision (X). Please see our paper for more details. YCB Dataset objects are available [here](https://www.ycbbenchmarks.com/). The bins we use for varying depth were originally purchased [here](https://www.amazon.com/IRIS-USA-Inc-Multi-Purpose-Plastic/dp/B07CQ9B8W3/ref=sr_1_7?ie=UTF8&qid=1547231250&sr=8-7&keywords=plastic+bins+for+toys).
 
