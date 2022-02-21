@@ -25,7 +25,7 @@ Source code for annotating data and training OSVOS for segmentation is located i
 
 ## Benchmark
 
-VOVS Visual Servo Control and Depth Estimation Benchmark.
+VOSVS Visual Servo Control and Depth Estimation Benchmark.
 
 | Object Set | Support Height (m) | YCB Object | [VOSVS](https://openaccess.thecvf.com/content_WACV_2020/html/Griffin_Video_Object_Segmentation-based_Visual_Servo_Control_and_Object_Depth_Estimation_WACV_2020_paper.html) |
 | --------------- | --------------- | --------------- | --------------- | 
