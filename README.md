@@ -27,7 +27,7 @@ Source code for annotating data and training OSVOS for segmentation is located i
 
 VOSVS Visual Servo Control and Depth Estimation Benchmark.
 
-| Object Set | Support Height (m) | YCB Object | [ClickBot](https://arxiv.org/pdf/2201.12437.pdf "Mobile Robot Manipulation using Pure Object Detection, WACV 2023") | [VOSVS](https://openaccess.thecvf.com/content_WACV_2020/html/Griffin_Video_Object_Segmentation-based_Visual_Servo_Control_and_Object_Depth_Estimation_WACV_2020_paper.html) |
+| Object Set | Support Height (m) | YCB Object | [ClickBot](https://openaccess.thecvf.com/content/WACV2023/html/Griffin_Mobile_Robot_Manipulation_Using_Pure_Object_Detection_WACV_2023_paper.html "Mobile Robot Manipulation using Pure Object Detection, WACV 2023") | [VOSVS](https://openaccess.thecvf.com/content_WACV_2020/html/Griffin_Video_Object_Segmentation-based_Visual_Servo_Control_and_Object_Depth_Estimation_WACV_2020_paper.html) |
 | --------------- | --------------- | --------------- | --------------- | --------------- | 
 | Tool | 0.25 | Power Drill | \\ | X |
 | Tool | 0.125 | Marker | \\ | \\ |
