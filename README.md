@@ -80,5 +80,8 @@ This code is available for non-commercial research purposes only.
 
 ## Misc.
 
+__WACV 2020 presentation video:__ https://youtu.be/5OIk-0HJJmc
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5OIk-0HJJmc/0.jpg)](https://youtu.be/5OIk-0HJJmc)
+
 __Robot Fine Motor Skills using VOSVS:__ https://youtu.be/4L6Q8sAjiCI
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4L6Q8sAjiCI/0.jpg)](https://www.youtube.com/watch?v=4L6Q8sAjiCI)
