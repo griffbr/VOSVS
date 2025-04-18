@@ -62,9 +62,9 @@ Is your technique missing although the paper and results are public? Let us know
 
 ## Method
 
-__WACV 2020 Oral Presentation:__ https://youtu.be/_SaMQjLxpZ8
+__WACV 2020 Oral Presentation:__ https://youtu.be/5OIk-0HJJmc
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_SaMQjLxpZ8/0.jpg)](https://www.youtube.com/watch?v=_SaMQjLxpZ8)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5OIk-0HJJmc/0.jpg)](https://www.youtube.com/watch?v=5OIk-0HJJmc)
 
 __HSR Segmenting Objects at Various Heights.__ HSR's grasp camera faces downward (left) and only collects RGB data for objects in the scene (top right). However, using active perception and video object segmentation (bottom right), HSR can locate and grasp a variety of objects in real time.
 ![alt text](https://github.com/griffbr/VOSVS/blob/master/figure/annotation_example.png "VOS-based Visual Servo Control, Active Depth Estimation, and Mobile Robot Grasping")
@@ -79,9 +79,6 @@ __Depth Estimation of Sugar Box.__ Data are collected and processed in real time
 This code is available for non-commercial research purposes only.
 
 ## Misc.
-
-__WACV 2020 presentation video:__ https://youtu.be/5OIk-0HJJmc
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5OIk-0HJJmc/0.jpg)](https://youtu.be/5OIk-0HJJmc)
 
 __Robot Fine Motor Skills using VOSVS:__ https://youtu.be/4L6Q8sAjiCI
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4L6Q8sAjiCI/0.jpg)](https://www.youtube.com/watch?v=4L6Q8sAjiCI)
