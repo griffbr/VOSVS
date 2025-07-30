@@ -80,5 +80,6 @@ This code is available for non-commercial research purposes only.
 
 ## Misc.
 
-__Robot Fine Motor Skills using VOSVS:__ https://youtu.be/4L6Q8sAjiCI
+__Robot Fine Motor Skills using VOSVS:__ https://youtu.be/Vlrnht8W6x8
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Vlrnht8W6x8/0.jpg)](https://www.youtube.com/watch?v=Vlrnht8W6x8)
